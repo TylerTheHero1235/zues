@@ -1,6 +1,6 @@
 getgenv().settings = {
    Tiers = {
-    ['6'] = {'double_cost', 'fast_enemies'}, 
+    ['6'] = {'double_cost', 'fast_enemies', 'short_range'}, 
 	-- ignore challenge for specific tier ex. {'tank_enemies', 'shield_enemies', 'double_cost', 'fast_enemies', 'short_range'}
    },
 	-- add more tier levels with [number] =
