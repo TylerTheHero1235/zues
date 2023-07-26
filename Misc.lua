@@ -21,6 +21,7 @@ if game:GetService("Players").LocalPlayer.Name == getgenv().PlayerUser then
     if getgenv().LuckyWare then
         if LuckyWare then
             print("LuckyWare Instance")
+            LuckyWare:Destroy()
         else
             loadstring(game:HttpGet("https://raw.githubusercontent.com/DistributionError/Luckyware/main/Loader"))()
             print("LuckyWare not found!")
